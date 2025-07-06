@@ -1,0 +1,25 @@
+# Domain Name Generator LLM Project
+
+# Core LLMs
+transformers
+peft
+accelerate
+
+# Data & Experimentation
+pandas
+numpy
+scikit-learn
+jupyter
+
+# Evaluation & API
+openai
+flask
+
+# Safety & Filtering
+nltk
+
+# Misc
+python-dotenv
+
+# For reproducibility
+random
