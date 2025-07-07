@@ -1,0 +1,21 @@
+# Ignore model directories and outputs
+local_models/
+fine_tuned_models/
+__pycache__/
+*.pyc
+*.pkl
+*.log
+*.tmp
+*.ipynb_checkpoints/
+.env/
+.envrc
+.DS_Store
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Ignore OS and editor files
+*.swp
+*.swo
+*.bak
+*.~
+model_evaluation/
+.venv/

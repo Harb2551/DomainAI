@@ -1,0 +1,20 @@
+{
+  "experiment_id": "meta-llama-Llama-2-7b-hf_20250706_132320",
+  "timestamp": "2025-07-06T13:23:20.812969",
+  "model_name": "meta-llama/Llama-2-7b-hf",
+  "training_successful": true,
+  "key_metrics": {
+    "final_train_loss": 1.1488387456962041,
+    "training_time_minutes": 2.1854099999999996,
+    "trainable_parameters": null,
+    "trainable_percentage": null,
+    "train_samples": 896,
+    "val_samples": 112
+  },
+  "configuration": {
+    "lora_rank": 16,
+    "learning_rate": 0.0002,
+    "batch_size": 8,
+    "epochs": 3
+  }
+}

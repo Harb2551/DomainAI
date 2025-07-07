@@ -1,7 +1,7 @@
 # Domain Name Generator LLM Project
 
 # Core LLMs
-transformers
+transformers==4.38.0
 peft
 accelerate
 

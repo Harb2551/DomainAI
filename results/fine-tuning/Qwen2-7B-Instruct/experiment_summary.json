@@ -1,0 +1,20 @@
+{
+  "experiment_id": "Qwen-Qwen2-7B-Instruct_20250706_134919",
+  "timestamp": "2025-07-06T13:49:19.997624",
+  "model_name": "Qwen/Qwen2-7B-Instruct",
+  "training_successful": true,
+  "key_metrics": {
+    "final_train_loss": 1.415203685561816,
+    "training_time_minutes": 2.592006666666667,
+    "trainable_parameters": null,
+    "trainable_percentage": null,
+    "train_samples": 896,
+    "val_samples": 112
+  },
+  "configuration": {
+    "lora_rank": 16,
+    "learning_rate": 0.0002,
+    "batch_size": 8,
+    "epochs": 3
+  }
+}
