@@ -17,5 +17,5 @@ __pycache__/
 *.swo
 *.bak
 *.~
-model_evaluation/
 .venv/
+fine_tuned_models_old/

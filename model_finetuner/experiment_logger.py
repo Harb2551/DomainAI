@@ -38,6 +38,8 @@ class ExperimentLogger:
 
     def save(self, suffix=""):
         log_file = os.path.join(self.output_dir, f'experiment_log{suffix}.json')
+        # Ensure the directory exists before saving
+        os.makedirs(os.path.dirname(log_file), exist_ok=True)
         with open(log_file, 'w') as f:
             json.dump(self.experiment_log, f, indent=2, default=str)
         print(f"Experiment log saved to {log_file}")

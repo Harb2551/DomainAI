@@ -29,12 +29,21 @@ class FinetunePipeline:
         trainer.train()
 
 if __name__ == "__main__":
-    # Change the model name here to switch between models
-    MODEL_NAME = "Qwen/Qwen2-7B-Instruct" 
-    DATA_DIR = "./"  # Current directory (DomainAI)
-    # Set output dir based on model name for clarity
-    model_short_name = MODEL_NAME.split("/")[-1].replace('.', '-').replace('_', '-')
-    OUTPUT_DIR = f"./{model_short_name}-finetuned-domainai"
+    # Hard code the model directories found in local_models (excluding tokenizer dirs)
     LOCAL_MODEL_DIR = "./local_models"
-    pipeline = FinetunePipeline(MODEL_NAME, DATA_DIR, OUTPUT_DIR, LOCAL_MODEL_DIR, DomainModelTrainer)
-    pipeline.run()
+    DATA_DIR = "./"  # Current directory (DomainAI)
+    FINE_TUNED_MODELS_DIR = "./fine_tuned_models"
+    if not os.path.exists(FINE_TUNED_MODELS_DIR):
+        os.makedirs(FINE_TUNED_MODELS_DIR, exist_ok=True)
+    MODEL_DIRS = [
+        "Qwen-Qwen2-7B-Instruct",
+        "meta-llama-Llama-2-7b-hf",
+        "mistralai-Mistral-7B-v0.1"
+    ]
+    for model_dir in MODEL_DIRS:
+        model_path = os.path.join(LOCAL_MODEL_DIR, model_dir)
+        model_short_name = model_dir.replace('.', '-').replace('_', '-')
+        OUTPUT_DIR = os.path.join(FINE_TUNED_MODELS_DIR, f"{model_short_name}-finetuned-domainai")
+        print(f"\n[INFO] Fine-tuning model: {model_path}")
+        pipeline = FinetunePipeline(model_path, DATA_DIR, OUTPUT_DIR, LOCAL_MODEL_DIR, DomainModelTrainer)
+        pipeline.run()

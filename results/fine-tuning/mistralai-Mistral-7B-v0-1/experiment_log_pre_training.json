@@ -1,12 +1,12 @@
 {
-  "experiment_id": "mistralai-Mistral-7B-v0.1_20250706_054802",
-  "model_name": "mistralai/Mistral-7B-v0.1",
-  "timestamp": "2025-07-06T05:48:02.902879",
+  "experiment_id": ".-local_models-mistralai-Mistral-7B-v0.1_20250707_025255",
+  "model_name": "./local_models/mistralai-Mistral-7B-v0.1",
+  "timestamp": "2025-07-07T02:52:55.089813",
   "config": {
     "lora_config": {
       "r": 16,
       "lora_alpha": 32,
-      "target_modules": "{'up_proj', 'q_proj', 'v_proj', 'gate_proj', 'k_proj', 'down_proj', 'o_proj'}",
+      "target_modules": "{'v_proj', 'down_proj', 'gate_proj', 'up_proj', 'k_proj', 'q_proj', 'o_proj'}",
       "lora_dropout": 0.1,
       "bias": "none",
       "task_type": "CAUSAL_LM"
@@ -39,7 +39,7 @@
     "python_version": "3.9.21",
     "cpu_count": 256,
     "memory_total_gb": 1006.93,
-    "memory_available_gb": 989.49
+    "memory_available_gb": 986.42
   },
   "training_history": [],
   "dataset_info": {

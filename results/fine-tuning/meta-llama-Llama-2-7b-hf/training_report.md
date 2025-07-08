@@ -1,21 +1,21 @@
-# Training Report: meta-llama-Llama-2-7b-hf_20250706_132320
+# Training Report: .-local_models-meta-llama-Llama-2-7b-hf_20250707_025039
 
-**Generated:** 2025-07-06 13:27:21
+**Generated:** 2025-07-07 02:52:55
 
 ## Executive Summary
 - **Training Status:** ✅ SUCCESS
-- **Final Training Loss:** 1.1488
-- **Training Duration:** 2.2 minutes
-- **Training Speed:** 20.5 samples/second
+- **Final Training Loss:** 1.1393
+- **Training Duration:** 2.1 minutes
+- **Training Speed:** 20.9 samples/second
 - **Trainable Parameters:** 0 (0.00%)
 
 ## Model Configuration
-- **Base Model:** meta-llama/Llama-2-7b-hf
+- **Base Model:** ./local_models/meta-llama-Llama-2-7b-hf
 - **Fine-tuning Method:** LoRA (Low-Rank Adaptation)
 - **LoRA Rank (r):** 16
 - **LoRA Alpha:** 32
 - **LoRA Dropout:** 0.1
-- **Target Modules:** o_proj, gate_proj, down_proj, up_proj, v_proj, q_proj, k_proj
+- **Target Modules:** v_proj, down_proj, gate_proj, up_proj, k_proj, q_proj, o_proj
 
 ## Training Configuration
 - **Learning Rate:** 0.0002
@@ -44,14 +44,14 @@
 - **System Memory:** 1006.93 GB
 
 ## Training Progress
-- **Initial Training Loss:** 3.7581
-- **Final Training Loss:** 0.7398
-- **Loss Improvement:** 3.0183
-- **Best Validation Loss:** 0.7700
-- **Final Validation Loss:** 0.7700
+- **Initial Training Loss:** 3.7385
+- **Final Training Loss:** 0.7415
+- **Loss Improvement:** 2.9970
+- **Best Validation Loss:** 0.7765
+- **Final Validation Loss:** 0.7765
 
 ## Generated Files
-- **Model Directory:** `/mnt/bfx/agentic_project/DomainAI/results/fine-tuning/Llama-2-7b-hf`
+- **Model Directory:** `/mnt/bfx/agentic_project/DomainAI/results/fine-tuning/meta-llama-Llama-2-7b-hf`
 - **Experiment Log:** `experiment_log.json`
 - **Training Summary:** `experiment_summary.json`
 - **This Report:** `training_report.md`
@@ -59,7 +59,7 @@
 - **Tokenizer:** tokenizer files
 
 ## Timeline
-- **Experiment Start:** 2025-07-06T13:23:20.812969
-- **Training Start:** 2025-07-06T13:25:09.225642
-- **Training End:** 2025-07-06T13:27:20.632326
-- **Total Duration:** 0:02:11.406684
+- **Experiment Start:** 2025-07-07T02:50:39.735706
+- **Training Start:** 2025-07-07T02:50:45.474179
+- **Training End:** 2025-07-07T02:52:54.577700
+- **Total Duration:** 0:02:09.103521

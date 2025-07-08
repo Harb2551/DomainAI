@@ -1,12 +1,12 @@
 {
-  "experiment_id": "meta-llama-Llama-2-7b-hf_20250706_132320",
-  "model_name": "meta-llama/Llama-2-7b-hf",
-  "timestamp": "2025-07-06T13:23:20.812969",
+  "experiment_id": ".-local_models-Qwen-Qwen2-7B-Instruct_20250707_024741",
+  "model_name": "./local_models/Qwen-Qwen2-7B-Instruct",
+  "timestamp": "2025-07-07T02:47:41.144277",
   "config": {
     "lora_config": {
       "r": 16,
       "lora_alpha": 32,
-      "target_modules": "{'o_proj', 'gate_proj', 'down_proj', 'up_proj', 'v_proj', 'q_proj', 'k_proj'}",
+      "target_modules": "{'v_proj', 'down_proj', 'gate_proj', 'up_proj', 'k_proj', 'q_proj', 'o_proj'}",
       "lora_dropout": 0.1,
       "bias": "none",
       "task_type": "CAUSAL_LM"
@@ -39,7 +39,7 @@
     "python_version": "3.9.21",
     "cpu_count": 256,
     "memory_total_gb": 1006.93,
-    "memory_available_gb": 986.6
+    "memory_available_gb": 988.35
   },
   "training_history": [],
   "dataset_info": {
@@ -62,53 +62,53 @@
         "name": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight",
         "shape": [
           16,
-          4096
+          3584
         ],
         "dtype": "torch.float32",
         "requires_grad": true,
-        "numel": 65536
+        "numel": 57344
       },
       {
         "name": "base_model.model.model.layers.0.self_attn.q_proj.lora_B.default.weight",
         "shape": [
-          4096,
+          3584,
           16
         ],
         "dtype": "torch.float32",
         "requires_grad": true,
-        "numel": 65536
+        "numel": 57344
       },
       {
         "name": "base_model.model.model.layers.0.self_attn.k_proj.lora_A.default.weight",
         "shape": [
           16,
-          4096
+          3584
         ],
         "dtype": "torch.float32",
         "requires_grad": true,
-        "numel": 65536
+        "numel": 57344
       },
       {
         "name": "base_model.model.model.layers.0.self_attn.k_proj.lora_B.default.weight",
         "shape": [
-          4096,
+          512,
           16
         ],
         "dtype": "torch.float32",
         "requires_grad": true,
-        "numel": 65536
+        "numel": 8192
       },
       {
         "name": "base_model.model.model.layers.0.self_attn.v_proj.lora_A.default.weight",
         "shape": [
           16,
-          4096
+          3584
         ],
         "dtype": "torch.float32",
         "requires_grad": true,
-        "numel": 65536
+        "numel": 57344
       }
     ],
-    "total_trainable_params_verified": 448
+    "total_trainable_params_verified": 392
   }
 }

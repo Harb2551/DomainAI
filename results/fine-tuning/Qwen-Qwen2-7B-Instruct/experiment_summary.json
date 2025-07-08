@@ -1,11 +1,11 @@
 {
-  "experiment_id": "mistralai-Mistral-7B-v0.1_20250706_054802",
-  "timestamp": "2025-07-06T05:48:02.902879",
-  "model_name": "mistralai/Mistral-7B-v0.1",
+  "experiment_id": ".-local_models-Qwen-Qwen2-7B-Instruct_20250707_024741",
+  "timestamp": "2025-07-07T02:47:41.144277",
+  "model_name": "./local_models/Qwen-Qwen2-7B-Instruct",
   "training_successful": true,
   "key_metrics": {
-    "final_train_loss": 1.1685035072621845,
-    "training_time_minutes": 2.2608733333333335,
+    "final_train_loss": 1.429520613380841,
+    "training_time_minutes": 2.6398466666666667,
     "trainable_parameters": null,
     "trainable_percentage": null,
     "train_samples": 896,
