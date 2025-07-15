@@ -2,7 +2,7 @@
 
 # Core LLMs
 transformers==4.37.2
-peft==0.10.0
+peft==0.16.0
 accelerate
 huggingface_hub>=0.18.0  # For model download from Hugging Face Hub
 torch>=2.0.0
