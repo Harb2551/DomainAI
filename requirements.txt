@@ -28,6 +28,3 @@ nltk
 # Misc
 python-dotenv
 typer>=0.9.0  # CLI support
-
-# For reproducibility
-random
