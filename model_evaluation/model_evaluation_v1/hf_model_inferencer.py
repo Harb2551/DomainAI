@@ -37,14 +37,17 @@ class HFModelInferencer:
                     logging.info("Hugging Face token found, attempting to login")
                     login(token=hf_token)
                 
+                # Initialize hf_model_id
+                hf_model_id = None
+                
                 # Try an open model instead if no token
                 if not hf_token:
                     # Use an open-access model instead
-                    # hf_model_id = "meta-llama/Meta-Llama-3-8B"
+                    hf_model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
                     logging.info(f"No HF token found and local model path {base_model_path} not found. Using open-access model {hf_model_id} instead")
                 else:
                     # Use the original gated model
-                    hf_model_id = f"mistralai/Mistral-7B-v0.1"
+                    hf_model_id = "mistralai/Mistral-7B-v0.1"
                     logging.info(f"Local model path {base_model_path} not found, using HuggingFace model {hf_model_id} with authentication")
                 
                 base_model_path = hf_model_id
