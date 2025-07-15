@@ -1,7 +1,7 @@
 # Domain Name Generator LLM Project
 
 # Core LLMs
-transformers==4.37.2
+transformers==4.37.0
 peft==0.11.1
 accelerate
 huggingface_hub>=0.18.0  # For model download from Hugging Face Hub
