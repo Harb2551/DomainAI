@@ -3,7 +3,8 @@
 # Core LLMs
 transformers==4.37.0
 peft==0.11.1
-accelerate
+accelerate>=0.25.0
+bitsandbytes==0.37.2
 huggingface_hub>=0.18.0  # For model download from Hugging Face Hub
 torch>=2.0.0
 sentencepiece  # Required for tokenizer conversion
