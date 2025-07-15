@@ -1,0 +1,20 @@
+{
+  "experiment_id": ".-local_models-mistralai-Mistral-7B-v0.1_20250713_153811",
+  "timestamp": "2025-07-13T15:38:11.239674",
+  "model_name": "./local_models/mistralai-Mistral-7B-v0.1",
+  "training_successful": true,
+  "key_metrics": {
+    "final_train_loss": 1.1783938102778935,
+    "training_time_minutes": 2.270325,
+    "trainable_parameters": null,
+    "trainable_percentage": null,
+    "train_samples": 896,
+    "val_samples": 112
+  },
+  "configuration": {
+    "lora_rank": 16,
+    "learning_rate": 0.0002,
+    "batch_size": 8,
+    "epochs": 3
+  }
+}

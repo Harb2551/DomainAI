@@ -4,6 +4,14 @@
 transformers==4.38.0
 peft
 accelerate
+huggingface_hub>=0.18.0  # For model download from Hugging Face Hub
+torch>=2.0.0
+
+# API & Web Framework
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+flask
 
 # Data & Experimentation
 pandas
@@ -13,13 +21,13 @@ jupyter
 
 # Evaluation & API
 openai
-flask
 
 # Safety & Filtering
 nltk
 
 # Misc
 python-dotenv
+typer>=0.9.0  # CLI support
 
 # For reproducibility
 random

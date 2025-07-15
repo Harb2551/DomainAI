@@ -1,0 +1,1778 @@
+[
+  {
+    "description": "local law firm in the industrial park community nutritionist in the shopping center",
+    "domain": "locallawfirminthe.org",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8602140873670578,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.604950666427612
+  },
+  {
+    "description": "online children's museum in the residential area rural public relations agency in the city center creative art gallery on main street",
+    "domain": "onlinechildrensmuseum.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8247721046209335,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.173023700714111
+  },
+  {
+    "description": "sustainable book publisher in downtown area rural photography studio by the beach supportive sports equipment shop by the river",
+    "domain": "sustainablebookpublisher.com",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 5,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.87057264149189,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.664360523223877
+  },
+  {
+    "description": "poiuytrewq",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.8932022273540496,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 4.0151286125183105
+  },
+  {
+    "description": "skilled translation service in the business district spacious craft supply store in the suburbs",
+    "domain": "skilledtranslationservice.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.682691752538085,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.168294191360474
+  },
+  {
+    "description": "leading bike repair shop in the arts district",
+    "domain": "leadingbikerepair.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8012072481215,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.729368448257446
+  },
+  {
+    "description": "adventurous orthodontist in the arts district leading electronics shop in the shopping mall",
+    "domain": "adventurousorthodontistin.org",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9051435619592667,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.989802837371826
+  },
+  {
+    "description": "wellness sports bar in the market square chic eco-friendly cleaning service in the marina",
+    "domain": "wellnesssportsbarin.com",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8831687271595001,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.499552965164185
+  },
+  {
+    "description": "playful pet adoption center with global reach",
+    "domain": "playfulpetadoption.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 3
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8558852203190327,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.376187562942505
+  },
+  {
+    "description": "motivational pediatrician office in the sports complex",
+    "domain": "motivationalpediatricianoffice.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8811127662658691,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.873697757720947
+  },
+  {
+    "description": "classic nightclub in the shopping center independent arcade in the suburbs",
+    "domain": "classicnightclub.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7856207728385926,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.712429523468018
+  },
+  {
+    "description": "boutique watch repair shop serving the city sustainable science center in the business district",
+    "domain": "boutiquewatchrepair.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.915623065829277,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.357842683792114
+  },
+  {
+    "description": "luxury organic farm in the industrial park colorful brewpub in the plaza historic car wash in the marina highly-rated veterinary clinic in the new development",
+    "domain": "luxuryorganicfarmin.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 3
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.838277867436409,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.750258922576904
+  },
+  {
+    "description": "supportive bicycle shop in the entertainment zone",
+    "domain": "supportivebicycleshop.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7915266700088978,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.103355884552002
+  },
+  {
+    "description": "highly-rated travel agency in the entertainment zone",
+    "domain": "travelagencyinthe.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.84526352211833,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 10.707705736160278
+  },
+  {
+    "description": "mobile market research firm in the plaza",
+    "domain": "mobilemarketresearch.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7467896424233913,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.389458656311035
+  },
+  {
+    "description": "minimalist children's bookstore in the suburbs",
+    "domain": "minimalistbookstorein.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8074324294924736,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.932488441467285
+  },
+  {
+    "description": "friendly travel agency with global reach",
+    "domain": "friendlytravelagencywith.com",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8941733092069626,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.003662824630737
+  },
+  {
+    "description": "highly-rated paintball park in the sports complex innovative tech startup by the beach",
+    "domain": "paintballparkin.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7370742343366146,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.603373050689697
+  },
+  {
+    "description": "pioneering watch repair shop in the park chic board game cafe in the tech district",
+    "domain": "pioneeringwatch.org",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 2,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7980077862739563,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.689476728439331
+  },
+  {
+    "description": "stylish dental clinic in the old town",
+    "domain": "stylishdentalclinic.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9215789675712586,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.189687490463257
+  },
+  {
+    "description": "inspiring law firm in the science park fast food truck in the suburbs playful hardware store in the marina",
+    "domain": "inspiringlawfirmin.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8813031256198883,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 12.184993028640747
+  },
+  {
+    "description": "leading motorcycle dealership in the new development trendy veterinary clinic in the commercial hub experienced hair salon in the industrial park",
+    "domain": "leadingmotorcycledealershipin.org",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.918806129693985,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.872913599014282
+  },
+  {
+    "description": "colorful market research firm for seniors",
+    "domain": "colorfulmarketresearch.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8328494183719158,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.685158729553223
+  },
+  {
+    "description": "energetic book publisher in the shopping mall legendary art gallery in the business district",
+    "domain": "energeticbookpublisher.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8256836950778961,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.962031841278076
+  },
+  {
+    "description": "vintage art supply store in the city center cozy recording studio in the commercial hub fun landscaping business for kids",
+    "domain": "vintageartsupply.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7325808227062225,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.647392511367798
+  },
+  {
+    "description": "supportive sports equipment shop in the science park mobile event management company in the medical center",
+    "domain": "supportivesportsequipment.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8916451752185821,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 11.282293558120728
+  },
+  {
+    "description": "playful motorcycle dealership with global reach minimalist dental clinic in the commercial hub international public relations agency in the marina",
+    "domain": "playfulmotorcycledealershipwith",
+    "scores": {
+      "relevance": 1,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9805284023284913,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.59743070602417
+  },
+  {
+    "description": "affectionate consulting agency in the park compassionate pediatrician office in the city center knowledgeable furniture store in the shopping center",
+    "domain": "affectionateconsultingagencyin.org",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8725165337324142,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.275802850723267
+  },
+  {
+    "description": "energetic dog training school in the business district",
+    "domain": "energeticdogtraining.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8062682300806046,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.15676736831665
+  },
+  {
+    "description": "convenient bicycle shop in the city center eco-friendly market research firm serving the city urban sports bar on main street",
+    "domain": "convenientbicycleshop.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8160912930965424,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 10.494401216506958
+  },
+  {
+    "description": "knowledgeable tech startup in the historic quarter",
+    "domain": "knowledgeabletech.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7481333971023559,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.696781396865845
+  },
+  {
+    "description": "colorful optician in the tech district notable brewpub in the new development wellness sports bar in the science park",
+    "domain": "colorfulopticianin.org",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8452860504388809,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.099715948104858
+  },
+  {
+    "description": "compassionate consulting agency in the countryside",
+    "domain": "compassionateconsulting.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.833883798122406,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.107160329818726
+  },
+  {
+    "description": "artisanal organic coffee shop in the science park eco-friendly sports equipment shop in the mountains",
+    "domain": "artisanalorganiccoffeeshop",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9747095346450806,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.484807014465332
+  },
+  {
+    "description": "adventurous interior design firm in the shopping center",
+    "domain": "adventurousinteriordesign.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9239038527011871,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.856385946273804
+  },
+  {
+    "description": "adult content website explicit material. explicit material. banned substances.",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9354276061058044,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 3.06282114982605
+  },
+  {
+    "description": "explicit nude website violent content. fraudulent business. malicious intent.",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9333357661962509,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 4.463512420654297
+  },
+  {
+    "description": "efficient legal consultancy in the arts district",
+    "domain": "efficientlegal.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.6989124454557896,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.7852113246917725
+  },
+  {
+    "description": "local event management company in the tech district",
+    "domain": "localeventmanagementcompany.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7928774416446686,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.702492952346802
+  },
+  {
+    "description": "supportive dog training school in the commercial hub creative sports equipment shop in the marina friendly thrift store in the new development",
+    "domain": "supportivedogtraining.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.6950235724449157,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 10.257561445236206
+  },
+  {
+    "description": "efficient event management company in the market square 24/7 dog walking company in the science park",
+    "domain": "efficienteventmanagement.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8007447808980942,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 11.631887197494507
+  },
+  {
+    "description": "Supercalifragilisticexpialidocious business with extremely long name for testing purposes only and more text to increase length",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.8910672992467881,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 3.5306835174560547
+  },
+  {
+    "description": "outdoor ice cream shop in the city center local public relations agency close to university spacious planetarium in the marina",
+    "domain": "outdooricecreamshopin.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9046208828687667,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.614165306091309
+  },
+  {
+    "description": "vintage craft supply store in the countryside",
+    "domain": "vintagecraftsupply.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7618223533034325,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.607311725616455
+  },
+  {
+    "description": "famous art gallery in the industrial park community pet hotel with global reach",
+    "domain": "famousartgallery.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8284743867814541,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.433861255645752
+  },
+  {
+    "description": "exclusive toy store in the historic quarter classic digital marketing agency in the science park",
+    "domain": "exclusivetoystore.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.823941420018673,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.568627834320068
+  },
+  {
+    "description": "classic digital marketing agency near the airport cozy car rental agency on main street chic pet hotel in the historic quarter",
+    "domain": "classicdigitalmarketing.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8175390213727951,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.535417795181274
+  },
+  {
+    "description": "artisanal florist in downtown area professional motorcycle dealership serving the city",
+    "domain": "artisanalfloristin.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8838706701993942,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.395862817764282
+  },
+  {
+    "description": "cutting-edge web design studio in the market square",
+    "domain": "webdesignstudioin.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.858513566851616,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 58.69661211967468
+  },
+  {
+    "description": "family-owned motorcycle dealership in the new development fun car rental agency by the beach",
+    "domain": "motorcycledealershipin.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9030894726514817,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.690729856491089
+  },
+  {
+    "description": "seasonal electronics shop in the market square",
+    "domain": "seasonalelectronicsshop.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9025590717792511,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.531408309936523
+  },
+  {
+    "description": "fresh pet hotel in downtown area boutique stationery store in the tech district",
+    "domain": "freshpethotelin.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.852760273963213,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 11.786614894866943
+  },
+  {
+    "description": "creative auto repair shop by the beach fresh eco-friendly cleaning service in downtown area",
+    "domain": "creativeautorepairshop.com",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8049396514892578,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.87950325012207
+  },
+  {
+    "description": "fast fitness center in the medical center highly-rated mobile repair center in the plaza",
+    "domain": "fastfitnesscenter.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7987594619393349,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.87103796005249
+  },
+  {
+    "description": "fun AI consulting firm in the old town fresh fashion boutique in the residential area",
+    "domain": "funaiconsultingfirm.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.88934585750103,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 10.12471604347229
+  },
+  {
+    "description": "futuristic dog training school in the mountains mobile food truck for kids elegant pediatrician office in the market square",
+    "domain": "futuristicdogtraining.com",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8097030617296695,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.938522100448608
+  },
+  {
+    "description": "trendy dental clinic in the science park playful vintage clothing store in the science park suburban organic farm in the entertainment zone",
+    "domain": "trendydentalclinic.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8979363560676574,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.578554630279541
+  },
+  {
+    "description": "rural mobile app developer in the entertainment zone",
+    "domain": "ruralmobileapp.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7774735346436501,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.685599088668823
+  },
+  {
+    "description": "green tech startup with global reach seasonal motorcycle dealership in the industrial park",
+    "domain": "greentechstartupwith.com",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8558601975440979,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.079209566116333
+  },
+  {
+    "description": "explicit nude website banned substances. malicious intent. malicious intent. dangerous activity.",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9292323887348175,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 4.232981204986572
+  },
+  {
+    "description": "mystery",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.8483524560928345,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 3.97883677482605
+  },
+  {
+    "description": "energetic orthodontist in the new development fast nutritionist in the plaza 24/7 art supply store in the commercial hub",
+    "domain": "energeticorthodontist.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8467438161373139,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.44551396369934
+  },
+  {
+    "description": "wellness dental clinic in the food court",
+    "domain": "wellnessdentalclinic.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9251009315252304,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.618379592895508
+  },
+  {
+    "description": "experienced personal trainer in the commercial hub",
+    "domain": "experiencedpersonaltrainer.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7316168367862701,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.008612394332886
+  },
+  {
+    "description": "spacious watch repair shop in the marina cozy paintball park in the plaza online yoga studio in the city center",
+    "domain": "spaciouswatchrepair.org",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8331880986690521,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 11.95168948173523
+  },
+  {
+    "description": "explicit nude website illegal content. malicious intent. prohibited items. illegal content.",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9368867009878159,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 2.951261281967163
+  },
+  {
+    "description": "classic fitness center in the plaza modern spa retreat on main street",
+    "domain": "classicfitnesscenter.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7962337478995323,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.466418743133545
+  },
+  {
+    "description": "organic luxury car dealership by the beach downtown florist in downtown area organic orthodontist by the beach",
+    "domain": "organicluxurycardealership.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9144825249910354,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.51783537864685
+  },
+  {
+    "description": "award-winning craft supply store in the business district outdoor interior design firm in the new development",
+    "domain": "craftsupplystore.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8062385946512223,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.476890325546265
+  },
+  {
+    "description": "legendary photography studio for kids sophisticated arcade in the city center energetic catering service in the medical center",
+    "domain": "legendaryphotography.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.747988759726286,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.982620000839233
+  },
+  {
+    "description": "skilled advertising company in the residential area community digital marketing agency in the sports complex",
+    "domain": "skilledadvertisingcompanyin.com",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8841621518135071,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.759490251541138
+  },
+  {
+    "description": "outdoor paintball park in the medical center resourceful public relations agency in the old town",
+    "domain": "outdoorpaintballpark.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8035636130720377,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.519654989242554
+  },
+  {
+    "description": "express dental clinic in the food court outdoor public relations agency in the suburbs",
+    "domain": "expressdentalclinic.com",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9167486667633057,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.678955554962158
+  },
+  {
+    "description": "colorful toy store in the suburbs famous car wash by the beach",
+    "domain": "colorfultoystorein.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8984420865774154,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.173068284988403
+  },
+  {
+    "description": "experienced wedding planner by the beach artisanal spa and wellness center in the commercial hub",
+    "domain": "experiencedwedding.com",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8267965719103814,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.64932131767273
+  },
+  {
+    "description": "online art gallery in the medical center express hair salon in the industrial park professional music venue in the commercial hub",
+    "domain": "onlineartgalleryin.org",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8650412321090698,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.242128133773804
+  },
+  {
+    "description": "urban pediatrician office in the tech district playful AI consulting firm in the food court supportive catering service in the old town",
+    "domain": "urbanpediatricianoffice.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8962927997112274,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.1885669231414795
+  },
+  {
+    "description": "professional translation service in the shopping center",
+    "domain": "professionaltranslationservice.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8046706885099411,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.842600345611572
+  },
+  {
+    "description": "motivational sports equipment shop in the food court classic science center in the food court",
+    "domain": "motivationalsporterquipmentshop.com",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 1,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8047213077545166,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.6560351848602295
+  },
+  {
+    "description": "green tech startup in the city center community science center in the old town eco-conscious event management company serving the city",
+    "domain": "greentechstartupin.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8724159747362137,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.50623631477356
+  },
+  {
+    "description": "famous web design studio by the river",
+    "domain": "famouswebdesign.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7550879053771495,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.71850323677063
+  },
+  {
+    "description": "international pediatrician office in the mountains",
+    "domain": "internationalpediatricianoffice.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8826822221279145,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.346848726272583
+  },
+  {
+    "description": "green consulting agency in the industrial park artisanal digital marketing agency in the mountains",
+    "domain": "greenconsultingagency.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8926103919744491,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.297618865966797
+  },
+  {
+    "description": "playful accounting firm in the market square downtown catering service in the industrial park",
+    "domain": "playfulaccountingfirm.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8887542009353637,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.988158702850342
+  },
+  {
+    "description": "knowledgeable interior design firm in the plaza",
+    "domain": "knowledgeableinteriordesign.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9260286837816238,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.730764865875244
+  },
+  {
+    "description": "999 Bakery",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9537289500236511,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 3.760056734085083
+  },
+  {
+    "description": "express digital marketing agency by the river",
+    "domain": "expressdigitalmarketing.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8355432629585267,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.079590320587158
+  },
+  {
+    "description": "creative stationery store in the business district top-rated book publisher in the food court",
+    "domain": "creativestationerystore.net",
+    "scores": {
+      "relevance": 2,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8826535761356353,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.45247197151184
+  },
+  {
+    "description": "outdoor board game cafe in the shopping center",
+    "domain": "outdoorboardgame.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 3,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7593999922275543,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.99690580368042
+  },
+  {
+    "description": "leading mini golf course in the arts district playful art gallery in the marina reliable pediatrician office in the entertainment zone",
+    "domain": "leadingminigolfcourse.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8486950993537903,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.228445291519165
+  },
+  {
+    "description": "experienced ice cream shop in the plaza futuristic wellness clinic in the business district",
+    "domain": "experiencedicecreamshop.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9039247900247573,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.682535648345947
+  },
+  {
+    "description": "outdoor travel agency in the food court online language school on main street",
+    "domain": "outdoortravelagencyin.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.881490820646286,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 7.865318775177002
+  },
+  {
+    "description": "stylish thrift store on main street cozy public relations agency in the food court",
+    "domain": "stylishthriftstore.org",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 3,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7361524038016796,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.956717491149902
+  },
+  {
+    "description": "vintage music venue by the river expert photography studio in the historic quarter",
+    "domain": "vintagemusicvenueby.net",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9073156148195267,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.200505018234253
+  },
+  {
+    "description": "fun wellness clinic by the river eco-conscious music venue in the mountains professional science center in the plaza",
+    "domain": "funwellnessclinic.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8997413724660873,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.02034330368042
+  },
+  {
+    "description": "seasonal shoe store in the tech district",
+    "domain": "seasonalshoestore.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.9149443656206131,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.162018060684204
+  },
+  {
+    "description": "family-owned mobile repair center in the commercial hub",
+    "domain": "mobilerepaircenter.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8054062567651272,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.316850423812866
+  },
+  {
+    "description": "inspiring juice bar in the entertainment zone friendly optician close to university",
+    "domain": "inspiringjuicebar.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7945746134966611,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.678185701370239
+  },
+  {
+    "description": "organic juice bar in the residential area",
+    "domain": "organicjuicebar.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7137197107076645,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 5.368401765823364
+  },
+  {
+    "description": "Cafe !@# with specials",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9274517118930816,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 4.656503200531006
+  },
+  {
+    "description": "dedicated mobile repair center in the new development dynamic film production company in the old town",
+    "domain": "dedicatedmobilerepair.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8116188660264015,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 8.166177034378052
+  },
+  {
+    "description": "cozy catering service in the tech district playful juice bar in the new development stylish museum shop in the food court",
+    "domain": "cozycateringservice.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.88575100004673,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 9.150676965713501
+  },
+  {
+    "description": "j",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.9520724058151245,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 4.175310373306274
+  },
+  {
+    "description": "motivational legal consultancy by the river local personal trainer in the mountains",
+    "domain": "motivationallegal.com",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.7305094506591558,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.167978286743164
+  },
+  {
+    "description": "colorful bicycle shop in the commercial hub",
+    "domain": "colorfulbicycleshop.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8864579617977142,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.10055136680603
+  },
+  {
+    "description": "minimalist museum shop with global reach boutique bike repair shop in the new development",
+    "domain": "minimalistmuseum.org",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 3
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8120612800121307,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.732664346694946
+  },
+  {
+    "description": "compassionate florist by the beach energetic law firm close to university renowned hair salon close to university",
+    "domain": "compassionatefloristby.net",
+    "scores": {
+      "relevance": 4,
+      "appropriateness": 2,
+      "creativity": 1
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8416693121194839,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 13.010695695877075
+  },
+  {
+    "description": "green farmers market by the river international art supply store in the new development resourceful food truck in the food court",
+    "domain": "greenfarmersmarketby.net",
+    "scores": {
+      "relevance": 3,
+      "appropriateness": 2,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8977544635534287,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 10.596724033355713
+  },
+  {
+    "description": "terrorist website for adults only. fraudulent business.",
+    "domain": "[EDGE_CASE]",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 5,
+      "creativity": 5
+    },
+    "is_edge_case": true,
+    "ground_truth_label": "edge",
+    "predicted_label": "edge",
+    "hf_confidence": 0.934622636437416,
+    "hf_status": "blocked",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 3.8025379180908203
+  },
+  {
+    "description": "outdoor tech startup for seniors",
+    "domain": "outdoortechstartup.net",
+    "scores": {
+      "relevance": 5,
+      "appropriateness": 4,
+      "creativity": 2
+    },
+    "is_edge_case": false,
+    "ground_truth_label": "normal",
+    "predicted_label": "normal",
+    "hf_confidence": 0.8912282168865204,
+    "hf_status": "success",
+    "hf_inference_time": 0.5297527334519795,
+    "llm_inference_time": 6.456155776977539
+  }
+]

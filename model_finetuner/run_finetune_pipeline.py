@@ -31,7 +31,7 @@ class FinetunePipeline:
 if __name__ == "__main__":
     # Hard code the model directories found in local_models (excluding tokenizer dirs)
     LOCAL_MODEL_DIR = "./local_models"
-    DATA_DIR = "./"  # Current directory (DomainAI)
+    DATA_DIR = "./datasets/datasets_v1"  # Current directory (DomainAI)
     FINE_TUNED_MODELS_DIR = "./fine_tuned_models"
     if not os.path.exists(FINE_TUNED_MODELS_DIR):
         os.makedirs(FINE_TUNED_MODELS_DIR, exist_ok=True)

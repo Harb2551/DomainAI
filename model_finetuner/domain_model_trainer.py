@@ -26,7 +26,7 @@ class DomainModelTrainer:
         self.local_model_dir = local_model_dir
         # Set up results directory structure inside DomainAI
         model_short_name = self.model_name.split("/")[-1].replace('.', '-').replace('_', '-')
-        self.results_dir = os.path.join(os.path.dirname(__file__), "..", "results", "fine-tuning", model_short_name)
+        self.results_dir = os.path.join(os.path.dirname(__file__), "..", "results", "fine_tuning_v1", model_short_name)
         self.results_dir = os.path.abspath(self.results_dir)
         os.makedirs(self.results_dir, exist_ok=True)
         experiment_id = f"{model_name.replace('/', '-')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"

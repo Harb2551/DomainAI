@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  domainai-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./fine_tuned_models_v4:/app/fine_tuned_models_v4
+    environment:
+      - MODEL_PATH=/app/fine_tuned_models_v4/mistralai-Mistral-7B-v0-1-finetuned-domainai
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped

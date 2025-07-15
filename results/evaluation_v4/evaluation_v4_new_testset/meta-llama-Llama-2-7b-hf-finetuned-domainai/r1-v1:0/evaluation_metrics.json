@@ -1,0 +1,19 @@
+{
+  "model_name": "meta-llama-Llama-2-7b-hf-finetuned-domainai",
+  "num_cases": 530,
+  "criteria": [
+    "relevance",
+    "appropriateness",
+    "creativity"
+  ],
+  "average_scores": {
+    "relevance": 4.366037735849057,
+    "appropriateness": 4.369811320754717,
+    "creativity": 3.828301886792453
+  },
+  "average_hf_inference_time": 0.5077226107975215,
+  "average_llm_inference_time": 3.23174437172008,
+  "total_hf_inference_time": 269.09298372268677,
+  "total_llm_inference_time": 1712.8245170116425,
+  "total_evaluation_time": 1981.9175007343292
+}

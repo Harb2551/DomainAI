@@ -18,4 +18,16 @@ __pycache__/
 *.bak
 *.~
 .venv/
-fine_tuned_models_old/
+fine_tuned_models_v4/
+fine_tuned_models_v4_downloaded/
+
+# Additional model file formats
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.ggml
+*.onnx
+fix_readme.py
+upload_to_hf.py

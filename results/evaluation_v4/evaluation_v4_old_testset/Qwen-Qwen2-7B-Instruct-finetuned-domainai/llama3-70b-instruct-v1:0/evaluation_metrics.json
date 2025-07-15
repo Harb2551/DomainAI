@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen-Qwen2-7B-Instruct-finetuned-domainai",
+  "num_cases": 111,
+  "criteria": [
+    "relevance",
+    "appropriateness",
+    "creativity"
+  ],
+  "average_scores": {
+    "relevance": 2.5058823529411764,
+    "appropriateness": 2.488235294117647,
+    "creativity": 2.123529411764706
+  },
+  "average_hf_inference_time": 0.47682114158357836,
+  "average_llm_inference_time": 3.621707110791593,
+  "total_hf_inference_time": 53.40396785736084,
+  "total_llm_inference_time": 402.0094892978668,
+  "total_evaluation_time": 455.41345715522766
+}

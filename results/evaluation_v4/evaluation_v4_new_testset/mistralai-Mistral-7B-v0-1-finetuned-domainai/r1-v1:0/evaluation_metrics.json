@@ -1,0 +1,19 @@
+{
+  "model_name": "mistralai-Mistral-7B-v0-1-finetuned-domainai",
+  "num_cases": 530,
+  "criteria": [
+    "relevance",
+    "appropriateness",
+    "creativity"
+  ],
+  "average_scores": {
+    "relevance": 4.433962264150943,
+    "appropriateness": 4.418867924528302,
+    "creativity": 3.8962264150943398
+  },
+  "average_hf_inference_time": 0.5303536689506311,
+  "average_llm_inference_time": 3.238934933464482,
+  "total_hf_inference_time": 281.0874445438385,
+  "total_llm_inference_time": 1716.6355147361755,
+  "total_evaluation_time": 1997.722959280014
+}
