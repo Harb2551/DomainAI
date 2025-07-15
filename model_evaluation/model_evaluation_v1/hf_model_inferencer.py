@@ -6,6 +6,7 @@ from typing import List, Dict
 import logging
 import os
 import os.path
+from huggingface_hub import login
 
 class HFModelInferencer:
     def __init__(self, model_dir: str, tokenizer_dir: str = None, device: str = None):
@@ -29,15 +30,36 @@ class HFModelInferencer:
             if base_model_path.startswith('./local_models/') and not os.path.exists(base_model_path):
                 # Extract the model name from the path
                 model_name = base_model_path.split('/')[-1]
-                # Use the HuggingFace model ID instead
-                hf_model_id = f"mistralai/Mistral-7B-v0.1"
-                logging.info(f"Local model path {base_model_path} not found, using HuggingFace model {hf_model_id} instead")
+                
+                # Check for HF token in environment
+                hf_token = os.environ.get("HF_TOKEN")
+                if hf_token:
+                    logging.info("Hugging Face token found, attempting to login")
+                    login(token=hf_token)
+                
+                # Try an open model instead if no token
+                if not hf_token:
+                    # Use an open-access model instead
+                    # hf_model_id = "meta-llama/Meta-Llama-3-8B"
+                    logging.info(f"No HF token found and local model path {base_model_path} not found. Using open-access model {hf_model_id} instead")
+                else:
+                    # Use the original gated model
+                    hf_model_id = f"mistralai/Mistral-7B-v0.1"
+                    logging.info(f"Local model path {base_model_path} not found, using HuggingFace model {hf_model_id} with authentication")
+                
                 base_model_path = hf_model_id
             
             logging.info(f"Loading PEFT model with base model: {base_model_path}")
             
             # Load base model first - will download from HF if needed
-            self.model = AutoModelForCausalLM.from_pretrained(base_model_path)
+            # Check if we're using a gated model
+            if "mistralai" in base_model_path and os.environ.get("HF_TOKEN"):
+                self.model = AutoModelForCausalLM.from_pretrained(
+                    base_model_path,
+                    token=os.environ.get("HF_TOKEN")
+                )
+            else:
+                self.model = AutoModelForCausalLM.from_pretrained(base_model_path)
             
             # Resize embeddings to match tokenizer
             if self.model.config.vocab_size != len(self.tokenizer):
