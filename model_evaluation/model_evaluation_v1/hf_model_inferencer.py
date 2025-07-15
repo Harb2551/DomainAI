@@ -4,6 +4,8 @@ import torch
 import torch.nn.functional as F
 from typing import List, Dict
 import logging
+import os
+import os.path
 
 class HFModelInferencer:
     def __init__(self, model_dir: str, tokenizer_dir: str = None, device: str = None):
@@ -23,9 +25,18 @@ class HFModelInferencer:
             peft_config = PeftConfig.from_pretrained(model_dir)
             base_model_path = peft_config.base_model_name_or_path
             
+            # Check if the base model path is a local path that doesn't exist
+            if base_model_path.startswith('./local_models/') and not os.path.exists(base_model_path):
+                # Extract the model name from the path
+                model_name = base_model_path.split('/')[-1]
+                # Use the HuggingFace model ID instead
+                hf_model_id = f"mistralai/{model_name}"
+                logging.info(f"Local model path {base_model_path} not found, using HuggingFace model {hf_model_id} instead")
+                base_model_path = hf_model_id
+            
             logging.info(f"Loading PEFT model with base model: {base_model_path}")
             
-            # Load base model first
+            # Load base model first - will download from HF if needed
             self.model = AutoModelForCausalLM.from_pretrained(base_model_path)
             
             # Resize embeddings to match tokenizer
