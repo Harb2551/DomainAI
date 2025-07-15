@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from domain_inferencer import DomainNameInferencer
+from .domain_inferencer import DomainNameInferencer
 
 # Configure logging
 logging.basicConfig(
