@@ -30,7 +30,7 @@ class HFModelInferencer:
                 # Extract the model name from the path
                 model_name = base_model_path.split('/')[-1]
                 # Use the HuggingFace model ID instead
-                hf_model_id = f"mistralai/{model_name}"
+                hf_model_id = f"mistralai/Mistral-7B-v0.1"
                 logging.info(f"Local model path {base_model_path} not found, using HuggingFace model {hf_model_id} instead")
                 base_model_path = hf_model_id
             
